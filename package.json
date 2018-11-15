@@ -1,7 +1,6 @@
 {
   "name": "viewport-emulator-test",
   "version": "0.1.0",
-  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve --port 8081",
     "build": "vue-cli-service build"
