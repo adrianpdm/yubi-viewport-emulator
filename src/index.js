@@ -1,4 +1,10 @@
 import ViewportEmulator from "./ViewportEmulator.vue"
 
-export default ViewportEmulator
+const plugins = {
+    install(Vue, options){
+        Vue.component("yubi-viewport-emulator", ViewportEmulator)
+    }
+}
+
+export default plugins
 
