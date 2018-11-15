@@ -226,9 +226,7 @@ export default {
     },
     watch: {
         largestBreakpoint(val) {
-            this.$nextTick(()=>{
-                this.emitBreakpointChange(val)
-            })
+            this.emitBreakpointChange(val)
         },
     }
 }
