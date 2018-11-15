@@ -30,13 +30,13 @@
                 </v-container>
             </v-navigation-drawer>
             <v-content app>
-                <viewport-emulator style="text-align: left; height: calc(100vh)"
+                <yubi-viewport-emulator style="text-align: left; height: calc(100vh)"
                                    @update:breakpoint="onBreakpointChange"
                                    :device="device"
                                    :with-decor="withDecor">
                     <div class="current-breakpoint text-xs-center">{{breakpoint}}</div>
                     <grid-system></grid-system>
-                </viewport-emulator>
+                </yubi-viewport-emulator>
             </v-content>
             <v-btn fixed
                    class="white--text"

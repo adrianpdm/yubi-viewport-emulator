@@ -32,7 +32,7 @@ function DeviceBodyStyle(width, height, sidePadding, bodyRadius, screenRadius) {
 }
 
 let _mobile = new DeviceBodyStyle(320, 560, '1rem', '3rem', 0)
-let _tablet = new DeviceBodyStyle(660, 992, '1rem', '2rem', 0)
+let _tablet = new DeviceBodyStyle(768, 992, '1rem', '2rem', 0)
 let _desktop = new DeviceBodyStyle(1280, 992, '3rem', '2rem', 0)
 
 export default {

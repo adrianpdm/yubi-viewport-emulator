@@ -5,7 +5,7 @@ import "yubi-vuetify-stylus/main.styl"
 import ViewportEmulator from "./node_modules/yubi-viewport-emulator"
 import Vuetify from 'vuetify'
 
-Vue.component('viewport-emulator', ViewportEmulator)
+Vue.use(ViewportEmulator)
 Vue.use(Vuetify)
 Vue.config.productionTip = false
 
